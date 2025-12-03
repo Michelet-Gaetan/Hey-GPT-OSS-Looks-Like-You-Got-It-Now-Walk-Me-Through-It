@@ -1,0 +1,1 @@
+The computer of a person suspected to have attacked a server was seized. The disk was imaged and linux partitions were found on the device. The bash history has been extracted.

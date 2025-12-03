@@ -1,0 +1,1 @@
+Can you determine if an attack was undertaken from that computer? If so, can you determine who was the target of that attack? Please justify your answers.

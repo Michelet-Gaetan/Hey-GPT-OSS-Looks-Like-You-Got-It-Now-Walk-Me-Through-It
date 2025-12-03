@@ -1,0 +1,5 @@
+The question asked to the investigators is the following:
+
+- Can you determine the location of the suspect during the January 15th 2024 (day of the murder)?
+
+The digital forensics model used in our institution is the NIST 4-phases model: Collection -> Examination -> Analysis -> Reporting.

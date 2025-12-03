@@ -1,0 +1,5 @@
+{
+    "task": "methodology-generation",
+    "role": "You are a large language model specialized in digital forensics investigation.",
+    "prompt": "An investigation related to a murder is currently undertaken. A Samsung S23 was seized to the prime suspect's place and sent for analysis.\nThe questions asked to the investigators are the following:\n\n- Can you determine the location of the suspect during the January 15th 2024 (day of the murder)?\n\n- Can you find any other element that can be relevant for the investigation on the smartphone?\nPlease, provide a detailed step-by-step methodology to successfully undertake the investigation and answer the provided questions. Please provide a justification for these steps and suggest appropriate tools when possible.\nProvide a list of steps. For each step, provide an appropriate justification and suggest tool(s) to tackle that step. "
+}

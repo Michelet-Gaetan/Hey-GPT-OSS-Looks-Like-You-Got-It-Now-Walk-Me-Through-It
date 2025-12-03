@@ -1,0 +1,5 @@
+{
+    "task": "methodology-generation",
+    "role": "You are a large language model specialized in digital forensics investigation.",
+    "prompt": "An investigation related to a murder is currently undertaken. A Samsung S23 was seized to the prime suspect's place and sent for analysis.\nThe question asked to the investigators is the following:\n\n- Can you determine the location of the suspect during the January 15th 2024 (day of the murder)?\n\nThe digital forensics model used in our institution is the NIST 4-phases model: Collection -> Examination -> Analysis -> Reporting.\n\nPlease, provide a detailed methodology to successfully undertake the investigation and answer the provided question. Use the model that is used in our institution and justify each step of the methodology. When you can, suggest appropriate tools.\n\nProvide the methodology with appropriate justifications and suggest tool(s). \n"
+}
