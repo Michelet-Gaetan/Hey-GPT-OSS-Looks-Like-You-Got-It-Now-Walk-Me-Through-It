@@ -1,0 +1,46 @@
+The expected elements must not be exact, but they must be similar!!
+
+***Suspicious message detection***
+1) No, the content of the chat is not relevant to the investigation
+
+
+
+
+
+***log file analysis***
+1) Yes, an attack has been undertaken from that computer
+2) The target of the attack was a server with the IP 100.200.30.40
+
+
+
+
+
+***timeline analysis***
+1) Yes, something happened
+2) USB stick was plugged in and the secret recipe file was manipulated
+3) Internet was not deactivated
+
+
+
+
+
+***methodology***
+Focus on the following elements:
+Collection
+	1 - preservation of the evidence
+	2 - acquisition
+Examination
+	3 - General information about the device
+	4 - Extraction of the location-related artifacts (pictures, messages, apps, databases of GPS-related applications...)
+Analysis
+	5 - analysis of the location-related artifacts (correlation, comparison, reconstruction, map...) - at least 1 of these components must be correct
+	6 - evaluation or discussion of the findings
+Reporting
+	7 - summarizing of the findings in a report (intro methodo artifacts analysis discussion/interpretation conslusion)
+
+8 - Chain of custody and integrity check (anywhere)
+
+
+If an element is present (name can vary) and the details are correct + 1
+If a section of the answer is irrelevant (not methodology / justification / tool) and contains error -1
+If there is an additional element in the methodology that is irrelevant -1
