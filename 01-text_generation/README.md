@@ -19,7 +19,7 @@ log-file-analysis (BHA), suspicious-message-detection (SMD), and timeline analys
 For the log analysis, a bash history was generated using ChatGPT. The whole discussion with the chat model, generating harmless and suspicious elements, can be found in gpt_generation.txt. Then the different parts were concatenated and adjusted: the ip was changed from aaa.bbb.ccc.ddd to 100.200.30.40, incoherent urls were adapted, nonsense searchploits were removed, and repetitivity was reduced. The result is in bash_history.txt.
 
 #### ./data/suspicious-message-detection/data/
-For this task, a chat was generated using ChatGPT. The discussion with the chat can be found in gpt_chat.txt. The chat was then extracted and stored in chat.txt.
+For this task, a chat was generated using ChatGPT. The discussion with ChatGPT can be found in prompts.txt. The chat was then extracted and stored in chat.txt.
 
 #### ./data/timeline-analysis/data/
 For this task a manually created timeline was used. The data was then filtered on the day of interest, filtered on events that are considered relevant using zimmerman timeline explorer (colored events), and useless columns were removed. All the files are there, and the process is described in process.txt. In the end, the winxp-filter-columns-zimmerman-short.csv was used as input data.
@@ -27,7 +27,7 @@ For this task a manually created timeline was used. The data was then filtered o
 ### ./data_redo/
 We realized that some of the prompts could be improved between the first run and the evaluation. We decided to rerun our script for two tasks: suspicious-message-detection and methodology-generation. For the methodology-generation, the questions asked to the investigator were changed, and the 4-phases NIST model was provided as a basis to help generating a more specific methodology.
 
-#### ./data/suspicious-message-detection/data/
+#### ./data_redo/suspicious-message-detection/data/
 The text was adjusted to remove any direct mention to the breaking bad show, which would make the task to easy for the model.
 
 ### ./output/final/
@@ -77,5 +77,6 @@ As explained, some tasks had to be redone. We also used the timestamped_new vers
 - ./output/final/output_timeline-analysis_2025_09_25__23_30_48_new.txt
 - ./output/final/redo/output_methodology-generation_2025_09_29__18_25_44_new.txt
 - ./output/final/redo/output_suspicious-message-detection_2025_09_29__16_22_56_new.txt
+
 
 
