@@ -1,4 +1,4 @@
-#Text generation
+# Text generation
 
 This folder contaions all the elements used to generate the texts that are then evaluated for the experiment.
 
@@ -70,11 +70,12 @@ Exact same as ./output/final/divide_generated.py but this time for the tasks tha
 
 The input of this code are the timestamped files in ./output/final/redo/, and the output are the timestamped_new files in ./output/final/redo/.
 
-##Data considered during the evaluation
+## Data considered during the evaluation
 As explained, some tasks had to be redone. We also used the timestamped_new versions of the files as the reasoning and final answers are already isolated (and they also contain more info). Therefore, the 4 following files were used during the evaluation:
 
 - ./output/final/output_log-file-analysis_2025_09_26__03_40_56_new.txt
 - ./output/final/output_timeline-analysis_2025_09_25__23_30_48_new.txt
 - ./output/final/redo/output_methodology-generation_2025_09_29__18_25_44_new.txt
 - ./output/final/redo/output_suspicious-message-detection_2025_09_29__16_22_56_new.txt
+
 
